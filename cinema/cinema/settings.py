@@ -25,7 +25,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'watched_films',
+    'watched_films.apps.WatchedFilmsConfig',
+    'homepage.apps.HomepageConfig',
 ]
 
 MIDDLEWARE = [

@@ -16,7 +16,13 @@
     </nav>
   </header>
   <div>
-    <h1>Главная страница</h1>
+    <h1>Просмотренные фильмы</h1>
+    <!--<ul>
+    {% for film in films %}
+      <li>{{film.id}} - {{film.title}} </li>
+    {% endfor %}
+    </ul>-->
+    {{ films }}
   </div>
 
 </body>
