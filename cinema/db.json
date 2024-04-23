@@ -1,0 +1,518 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-04-23T13:58:49.079Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Genre object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-04-23T13:58:58.848Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Genre object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-04-23T13:59:12.765Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Genre object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-04-23T13:59:22.395Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Genre object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-04-23T13:59:29.823Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Genre object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-04-23T13:59:37.911Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Genre object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-04-23T13:59:55.510Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "Genre object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-04-23T14:00:07.299Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Genre object (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-04-23T14:00:30.547Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "Genre object (9)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-04-23T14:00:42.676Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "Genre object (10)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-04-23T14:00:53.336Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "Genre object (11)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-04-23T14:02:18.563Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "ProductType object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-04-23T14:02:25.885Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "ProductType object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-04-23T14:02:33.029Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "ProductType object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-04-23T14:02:44.872Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "ProductType object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-04-23T14:02:53.288Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "ProductType object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-04-23T14:09:39.705Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "WatchedFilms object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-04-23T14:16:07.132Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Пираты Карибского моря: Сундук мертвеца",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-04-23T14:18:18.040Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Выбор",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-04-23T14:18:35.795Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "12",
+    "object_repr": "Мелодрама",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-04-23T14:18:42.816Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Выбор",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Genres\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-04-23T14:19:52.647Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Черный Ящик",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$dVaqFSoI48F1lNhtiDEDK4$KRegPVmBfaHigqzY3b5ceQldPx6WeozcD2AxjEaZVX4=",
+    "last_login": "2024-04-22T13:04:19.245Z",
+    "is_superuser": true,
+    "username": "EugenySobyanin",
+    "first_name": "",
+    "last_name": "",
+    "email": "ea.sobyanin2018@gmai.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-04-19T09:24:31.024Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hjmyzgacstuxpnuhqoaoil3xdylk8cwx",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP-FsyG8RY_e-w1k2V2kamhS2pPx3w1JD3qdmcxbJNi3mvbOa5pJXIUWp1-WAZ_chqAHtPsicWnbOmc5EnnYLqeF-HU72r9BhV7HNqrgmYsj64sKxYEBjxCdQ28zB-1DsS4bH-KFlQ4uIp01UsnRoiIjPl_cxDfP:1rytLH:DSePbDbtMNV68WIsEfukiT8YhZjLvyRydvEvGHzLKKM",
+    "expire_date": "2024-05-06T13:04:19.324Z"
+  }
+},
+{
+  "model": "watched_films.genre",
+  "pk": 1,
+  "fields": {
+    "genre_title": "Комедия",
+    "add_time": "2024-04-23T13:58:49.061Z"
+  }
+},
+{
+  "model": "watched_films.genre",
+  "pk": 2,
+  "fields": {
+    "genre_title": "Детектив",
+    "add_time": "2024-04-23T13:58:58.821Z"
+  }
+},
+{
+  "model": "watched_films.genre",
+  "pk": 3,
+  "fields": {
+    "genre_title": "Триллер",
+    "add_time": "2024-04-23T13:59:12.762Z"
+  }
+},
+{
+  "model": "watched_films.genre",
+  "pk": 4,
+  "fields": {
+    "genre_title": "Приключения",
+    "add_time": "2024-04-23T13:59:22.390Z"
+  }
+},
+{
+  "model": "watched_films.genre",
+  "pk": 5,
+  "fields": {
+    "genre_title": "Боевик",
+    "add_time": "2024-04-23T13:59:29.806Z"
+  }
+},
+{
+  "model": "watched_films.genre",
+  "pk": 6,
+  "fields": {
+    "genre_title": "Драма",
+    "add_time": "2024-04-23T13:59:37.909Z"
+  }
+},
+{
+  "model": "watched_films.genre",
+  "pk": 7,
+  "fields": {
+    "genre_title": "Супергеройский",
+    "add_time": "2024-04-23T13:59:55.496Z"
+  }
+},
+{
+  "model": "watched_films.genre",
+  "pk": 8,
+  "fields": {
+    "genre_title": "Шпионский",
+    "add_time": "2024-04-23T14:00:07.219Z"
+  }
+},
+{
+  "model": "watched_films.genre",
+  "pk": 9,
+  "fields": {
+    "genre_title": "Ужасы",
+    "add_time": "2024-04-23T14:00:30.531Z"
+  }
+},
+{
+  "model": "watched_films.genre",
+  "pk": 10,
+  "fields": {
+    "genre_title": "Фэнтези",
+    "add_time": "2024-04-23T14:00:42.581Z"
+  }
+},
+{
+  "model": "watched_films.genre",
+  "pk": 11,
+  "fields": {
+    "genre_title": "Биография",
+    "add_time": "2024-04-23T14:00:53.328Z"
+  }
+},
+{
+  "model": "watched_films.genre",
+  "pk": 12,
+  "fields": {
+    "genre_title": "Мелодрама",
+    "add_time": "2024-04-23T14:18:35.776Z"
+  }
+},
+{
+  "model": "watched_films.producttype",
+  "pk": 1,
+  "fields": {
+    "type_title": "Фильм"
+  }
+},
+{
+  "model": "watched_films.producttype",
+  "pk": 2,
+  "fields": {
+    "type_title": "Сериал"
+  }
+},
+{
+  "model": "watched_films.producttype",
+  "pk": 3,
+  "fields": {
+    "type_title": "Мультфильм"
+  }
+},
+{
+  "model": "watched_films.producttype",
+  "pk": 4,
+  "fields": {
+    "type_title": "Мультсериал"
+  }
+},
+{
+  "model": "watched_films.producttype",
+  "pk": 5,
+  "fields": {
+    "type_title": "Телепередача"
+  }
+},
+{
+  "model": "watched_films.watchedfilms",
+  "pk": 1,
+  "fields": {
+    "title": "Пираты Карибского моря: Проклятие Черной жемчужины",
+    "year": 2003,
+    "original_title": null,
+    "kp_mark": 8.4,
+    "product_type": 1,
+    "country": "США",
+    "add_time": "2024-04-23T14:09:39.628Z",
+    "genres": [
+      1,
+      4,
+      5,
+      10
+    ]
+  }
+},
+{
+  "model": "watched_films.watchedfilms",
+  "pk": 2,
+  "fields": {
+    "title": "Пираты Карибского моря: Сундук мертвеца",
+    "year": 2006,
+    "original_title": null,
+    "kp_mark": 8.1,
+    "product_type": 1,
+    "country": "США",
+    "add_time": "2024-04-23T14:16:07.109Z",
+    "genres": [
+      1,
+      4,
+      5,
+      10
+    ]
+  }
+},
+{
+  "model": "watched_films.watchedfilms",
+  "pk": 3,
+  "fields": {
+    "title": "Выбор",
+    "year": 2016,
+    "original_title": null,
+    "kp_mark": 7.0,
+    "product_type": 1,
+    "country": "США",
+    "add_time": "2024-04-23T14:18:18.022Z",
+    "genres": [
+      1,
+      6,
+      12
+    ]
+  }
+},
+{
+  "model": "watched_films.watchedfilms",
+  "pk": 4,
+  "fields": {
+    "title": "Черный Ящик",
+    "year": 2021,
+    "original_title": null,
+    "kp_mark": 7.6,
+    "product_type": 1,
+    "country": "Франция",
+    "add_time": "2024-04-23T14:19:52.618Z",
+    "genres": [
+      2,
+      3
+    ]
+  }
+}
+]
