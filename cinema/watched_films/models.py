@@ -44,8 +44,8 @@ class ProductType(models.Model):
 
 # моделль с просмотренными фильмами
 class WatchedFilms(models.Model):
-    title = models.CharField(max_length=128, unique=True)
-    year = models.PositiveSmallIntegerField(null=True, validators=
+    title = models.CharField("Название", max_length=128, unique=True)
+    year = models.PositiveSmallIntegerField("Год", null=True, validators=
                                             [MinValueValidator(1900), 
                                              MaxValueValidator(cur_year + 20)
                                              ]
@@ -54,16 +54,17 @@ class WatchedFilms(models.Model):
         OriginalTitle,
         blank=True, 
         null=True, 
-        on_delete=models.SET_NULL) # связь один к одному
-    kp_mark = models.FloatField(blank=True)
+        on_delete=models.SET_NULL, 
+        verbose_name="Оригинальное название") # связь один к одному
+    kp_mark = models.FloatField("Рейтинг", blank=True)
     product_type = models.ForeignKey(
         ProductType,
         blank=True,
         on_delete=models.SET_NULL,
         null=True
     )
-    genres = models.ManyToManyField(Genre, blank=False)
-    country = models.CharField(max_length=128)
+    genres = models.ManyToManyField(Genre, blank=False, verbose_name="Жанр")
+    country = models.CharField("Страна", max_length=128)
     add_time = models.DateTimeField(auto_now_add=True, null=True)
 
     
