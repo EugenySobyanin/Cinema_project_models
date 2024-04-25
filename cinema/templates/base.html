@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная страница</title>
 </head>
+<style>
+  li {
+    color: white;
+    font-size: 30px;
+    font-family:monospace;
+    display: inline-table;
+
+  }
+  nav{
+    background-color: black;
+  }
+  ul{
+    text-align: center;
+  }
+  body{
+    background-color: grey;
+  }
+</style>
 <body>
   <header>
     <nav>
@@ -15,9 +33,6 @@
       </ul>
     </nav>
   </header>
-  <div>
-    <h1>Главная страница</h1>
-  </div>
-
+  {% block content %}{% endblock %}
 </body>
 </html>

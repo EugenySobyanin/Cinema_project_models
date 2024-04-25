@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная страница</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="{% url 'homepage:homepage' %}">Главная страница</a></li>
-        <li><a href="{% url 'watched_films:film_list' %}">Просмотренные фильмы</a></li>
-        <li><a>Планируемые фильмы</a></li>
-      </ul>
-    </nav>
-  </header>
+{% extends "base.html" %}
+  {% block content %}
   <div>
     <h1>Просмотренные фильмы</h1>
     <!--<ul>
@@ -24,6 +9,4 @@
     </ul>-->
     {{ films }}
   </div>
-
-</body>
-</html>
+  {% endblock %}
