@@ -1,31 +1,15 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная страница</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
-<style>
-  li {
-    color: white;
-    font-size: 30px;
-    font-family:monospace;
-    display: inline-table;
-
-  }
-  nav{
-    background-color: black;
-  }
-  ul{
-    text-align: center;
-  }
-  body{
-    background-color: grey;
-  }
-</style>
 <body>
   <header>
-    <nav>
+    <nav class="top-nav">
       <ul>
         <li><a href="{% url 'homepage:homepage' %}">Главная страница</a></li>
         <li><a href="{% url 'watched_films:film_list' %}">Просмотренные фильмы</a></li>
