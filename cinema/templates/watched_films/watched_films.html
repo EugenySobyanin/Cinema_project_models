@@ -3,11 +3,22 @@
   {% block content %}
   <div>
     <h1>Просмотренные фильмы</h1>
-    <!--<ul>
+    <ul>
     {% for film in films %}
-      <li>{{film.id}} - {{film.title}} </li>
+      <li>
+        {{film.id}} - {{film.title}}<br>
+        Год: {{ film.year }} <br>
+        Рейтинг: {{ film.kp_mark }} <br>
+      </li>
+      {% if forloop.last %}
+        <hr>
+      {% endif %}
     {% endfor %}
-    </ul>-->
-    {{ films }}
+    </ul>  
+  </div>
+  <div>
+    <form action="{% url 'watched_films:add_watched' %}">
+      <button>Добавить фильм</button>
+    </form>
   </div>
   {% endblock %}
