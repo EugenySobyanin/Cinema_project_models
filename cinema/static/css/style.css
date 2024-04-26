@@ -1,0 +1,39 @@
+
+/* li {
+    color: white;
+    font-size: 30px;
+    font-family:monospace;
+    display: inline-table;
+
+} */
+.top-nav {
+    
+    color: wheat;
+    font-size: 30px;
+    font-family: 'Gill Sans';
+    background-color: black;
+    height: 100px;
+    
+}
+
+.top-nav ul {
+    text-align: center;
+    
+    
+}
+
+.top-nav li {
+    display: inline-table;
+}
+
+
+
+
+
+
+/* ul {
+    text-align: center;
+}
+body {
+    background-color: grey;
+} */
